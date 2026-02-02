@@ -1,0 +1,12 @@
+#home_screen{
+  border-radius: 8px;
+  background-color: #081933;
+  color:white;
+ 
+  
+  min-height: 60vh;
+  text-align: center;
+}
+#header_text{
+  font-family: 'Conthrax', sans-serif;
+}

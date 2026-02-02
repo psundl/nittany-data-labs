@@ -1,0 +1,52 @@
+
+
+
+#ndl_logo {
+  width: 300px; /* Sets a fixed width of 300 pixels */
+  height: 280px; /* Sets a fixed height of 200 pixels */
+}
+#ndl_logo_top{
+  width: 58px; /* Sets a fixed width of 300 pixels */
+  margin-left:5%;
+  height: 54px; /* Sets a fixed height of 200 pixels */
+  /*75/70, width/height*/
+}
+#ndl_logo_text{
+  font-size: 27px;
+
+}
+#banner{
+  background-color: #0b1223;
+}
+#body_div{
+    height: 200vh;
+    opacity: 0.9;
+    background: radial-gradient(circle at top, #1f2d3d, #162233 70%);
+    
+}
+#base_body{
+  max-width: 100%;
+  width: auto;
+  margin-top:0;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#parallax {
+  /* The image used */
+  background-image: url("./assets/ndl_logo.png");
+
+  /* Set a specific height */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-decoration: none;
+  font-size: 50px; /* Sets the font size to 2.5 rem units */
+  font-weight: bold; /* Makes the text bold */
+  margin-bottom: 1rem; /* Adds a bottom margin of 1 rem unit */
+}

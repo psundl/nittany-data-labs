@@ -1,0 +1,15 @@
+#base_body{
+    align-self: center;
+    max-width: 1500px;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: auto;
+    background-color: #081933;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#calendar_body{
+    border: 3px solid red;
+    border-radius: 25px;
+}

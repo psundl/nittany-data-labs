@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+#ndl_logo {
+  width: 300px; /* Sets a fixed width of 300 pixels */
+  height: 280px; /* Sets a fixed height of 200 pixels */
+}
+#base_body{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#screen{
+    width:100vw;
+}
+#main_body{
+    float: none;
+    overflow: hidden;
+}
+h1 {
+  text-decoration: none;
+  font-size: 50px; /* Sets the font size to 2.5 rem units */
+  margin-bottom: 1rem; /* Adds a bottom margin of 1 rem unit */
+}
+/* Make the app stretch to full viewport height and use flex layout */
+html, body, #root {
+  
+  height: 100%;
+}
+/* Ensure the top-level container fills available space */
+
+/* Make body area grow to fill remaining space */

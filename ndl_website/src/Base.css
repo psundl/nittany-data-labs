@@ -1,0 +1,113 @@
+
+
+#ndl_logo {
+  width: 300px; /* Sets a fixed width of 300 pixels */
+  height: 280px; /* Sets a fixed height of 200 pixels */
+}
+
+#base_body{
+    align-self: center;
+    max-width: 1500px;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: auto;
+    background: radial-gradient(circle at top, #1f2d3d, #162233 70%);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#base_body_new{
+    align-self: center;
+    max-width: 1500px;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: auto;
+    background: radial-gradient(circle at top, #1f2d3d, #162233 70%);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#eboard_intro{
+  /*background: radial-gradient(circle at bottom, #FFFFFF, #DDDDDD 70%);  */
+  font-family: "Lucida Console", "Courier New", monospace;
+  max-width: 100%;
+  width: 100%;
+  color: white;
+  padding-top:50px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:50px;
+}
+#bigdiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#littlediv {
+    width: 100%;
+    height: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    outline: 1px solid #1c87d3;
+    background-color: #1c87d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.grid-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.grid-description {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+}
+#base_body_about{
+  margin-left: auto;
+  /*background: radial-gradient(circle at top, #1f2d3d, #162233 70%);*/
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 100%;
+  color: white;
+  padding-top:100px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:100px;
+}
+#base_body2{
+    border-radius: 25px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+background: radial-gradient(circle at top, #1f2d3d, #162233 70%);
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home_screen{
+  display: inline-block;
+}
+h1 {
+  text-decoration: none;
+  font-size: 50px; /* Sets the font size to 2.5 rem units */
+  margin-bottom: 1rem; /* Adds a bottom margin of 1 rem unit */
+}
