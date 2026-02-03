@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Base1 from './Base1.jsx';
 import Home from './Home.jsx';
 import Calendar from './Calendar.jsx';
+import Carousel from './Carousel.jsx';
 import { useLocation, useNavigate } from "react-router-dom";
 import logo from './assets/ndl_logo_white.png';
 
@@ -18,7 +19,7 @@ function App(props) {
 }, [props.activeTab_new]);
   const tabs = [ // Tab configuration
     { id: 'home', label: 'Home', href: 'home', content: <Base />, disabled: false },
-    { id: 'dashboard', label: 'Projects', href: 'dashboard', content: <Base />, disabled: false },
+    { id: 'dashboard', label: 'Projects', href: 'dashboard', content: <Carousel />, disabled: false },
     { id: 'settings', label: 'Events', href: 'settings', content: <Calendar />, disabled: false },
     { id: 'contacts', label: 'Contact', href: 'contacts', content: <Base />, disabled: false },
   ];
